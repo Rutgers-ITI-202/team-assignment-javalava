@@ -102,48 +102,36 @@ Every command should get a response. If there is nothing much to say, the respon
 An adventure game consists of:
 
 1. A TextAdventure class. This class:
-
-- Contains the main method used to start the game.
-- Talks to the AdventureModel and to the Adventurer classes, as needed.
-
+  - Contains the main method used to start the game.
+  - Talks to the AdventureModel and to the Adventurer classes, as needed.
 2. An AdventureModel class. This class:
-
-- Creates the Rooms, the Things, and the Adventurer.
-- Connects the Rooms with "paths" to other Rooms.
-- Places Things in the Rooms.
-- Places the Adventurer in some Room.
-- Accepts commands from the player, and executes them.
-- As commands are entered, they should be copied to the main text area.
-- The method that executes commands should return a String to be displayed in the main text area.
-
+  - Creates the Rooms, the Things, and the Adventurer.
+  - Connects the Rooms with "paths" to other Rooms.
+  - Places Things in the Rooms.
+  - Places the Adventurer in some Room.
+  - Accepts commands from the player, and executes them.
+  - As commands are entered, they should be copied to the main text area.
+  - The method that executes commands should return a String to be displayed in the main text area.
 3. An Adventurer (the human player).
-
-An adventurer has:
-
-- A location (some room).
-- An inventory (the things being carried).  When the player executes the "take thing" command, the item should be added to the inventory.
-
-An adventurer can:
-
-- Move from room to room.
-- Carry a number of objects.
-- Pick up, drop, look at, and use various objects.
-
+  - An adventurer has:
+    - A location (some room).
+    - An inventory (the things being carried).  When the player executes the "take thing" command, the item should be added to the inventory.
+  - An adventurer can:
+    - Move from room to room.
+    - Carry a number of objects.
+    - Pick up, drop, look at, and use various objects.
 4. Some number of Rooms. A room has:
-
-- A name.
-- A description, possibly several sentences long.
-- Contents: the things in the room.
-- Exits: paths to other rooms (usually some of north, south, east, and west).
-- Some number of Things.
-
-A thing has:
-
-- A name (If some of your Things have multi-word names, such as "fire-breathing dragon" or "that thing that your aunt gave you that you don't know what it is", then you might want to give your Things both a full name and a one-word name.)
-- A description, to be shown when the adventurer "looks" at it.
-- One or more methods for using the Thing. You can have a multi-purpose use verb, or you can make up your own verbs (for instance, drink water or pour water), which determines what the thing does when the adventurer tries to use it.
-- For simplicity, we will say that the adventurer can only use things being carried (in the inventory)
-- Whether "using" a thing does anything or not (or exactly what it does) can depend on what room it is in, what other things are in the room or in the inventory, or any other conditions you can think of.
+  - A name.
+  - A description, possibly several sentences long.
+  - Contents: the things in the room.
+  - Exits: paths to other rooms (usually some of north, south, east, and west).
+  - Some number of Things. A thing has:
+    - A name
+	  -(If some of your Things have multi-word names, such as "fire-breathing dragon" or "that thing that your aunt gave you that you don't know what it is", then you might want to give your Things both a full name and a one-word name.)
+    - A description, to be shown when the adventurer "looks" at it.
+    - One or more methods for using the Thing. You can have a multi-purpose use verb, or you can make up your own verbs (for instance, drink water or pour water), which determines what the thing does when the adventurer tries to use it.
+    - For simplicity, we will say that the adventurer can only use things being carried (in the inventory)
+    - Whether "using" a thing does anything or not (or exactly what it does) can depend on what room it is in, what other things are in the room or in the inventory, or any other conditions you can think of.
 
 Your assignment is to write an adventure game with your group. It should have:
 
@@ -182,28 +170,22 @@ Just don't forget to demo the game, and show the class your Game Map.
 This project will have three milestones, at which time you are expected to deliver part of your work on this project. They are:
 
 1. Group Assignment 1, due 2/24/2017
-
-Demonstrate core implementation of the game engine including TestAdventure, AdventureModel, and Adventurer, and Room classes, demonstrating:
-
-- Setup and loading of the game
-- Basic player I/O via the console, including the ability to accept commands
-- Basic Adventurer interaction with a single room, including the ability to apply commands to that room that will generate appropriate output
-- (Navigation is not need at this point, just commands like look, take, use, etc.)
-- Note that at this point I am interested only in *core functionality*. I'm not looking for a fully-realized game world (that comes in part 2) or a wide variety of Rooms, Things, and Puzzles to interact with (that comes in part 3).
-
+  - Demonstrate core implementation of the game engine including TestAdventure, AdventureModel, and Adventurer, and Room classes, demonstrating:
+    - Setup and loading of the game
+    - Basic player I/O via the console, including the ability to accept commands
+    - Basic Adventurer interaction with a single room, including the ability to apply commands to that room that will generate appropriate output
+    - (Navigation is not need at this point, just commands like look, take, use, etc.)
+    - Note that at this point I am interested only in *core functionality*. I'm not looking for a fully-realized game world (that comes in part 2) or a wide variety of Rooms, Things, and Puzzles to interact with (that comes in part 3).
 2. Group Assignment 2, due 3/24/2017
-
-- Core design of the game
-- Production of the Game Map, Instructions, and Documentation for external audiences (the players)
-- Creation of Design and Requirements documentation for internal audiences (the development team)
-
+  - Core design of the game
+  - Production of the Game Map, Instructions, and Documentation for external audiences (the players)
+  - Creation of Design and Requirements documentation for internal audiences (the development team)
 3. Group Assignment 3, due 4/21/2017
-
-- Completion of code, meeting all the requirements listed above
-- Preparation of 5-10 minute demo of your game to the class
+  - Completion of code, meeting all the requirements listed above
+  - Preparation of 5-10 minute demo of your game to the class
 
 Your Presentation will occur on the final day of class, 4/21/2017.  On this day, you will also present your Game Map.
 
-** I reserve the right to give extra credit to particularly good games. **
+* I reserve the right to give extra credit to particularly good games. *
 
 On the final day of class, you will also complete a reflection on the overall project, including a peer review of your team members' contributions. I will take this peer review into consideration when assigning your final grades.
