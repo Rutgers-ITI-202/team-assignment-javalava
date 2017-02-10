@@ -27,11 +27,12 @@ Examples:
 The basic concept is that everything in the game is described via text, and the user gets a specific set of commands (up, down, left, right, eat, examine, store, etc.) that they can perform.  The goal is typically to move through a series of rooms until reaching the end goal.
 
 This project will consist of 3 components:
+
 1. Game Map, Documentation, Instructions - 20%
 2. Source Code - 60%
 3. Presentation Demo - 20%
 
-## Game Map, Documentation, Instructions – 20%
+## Game Map, Documentation, Instructions - 20%
 
 An important part of any game (and, indeed, any piece of software) are the instructions and guides that go with it.   The Game Map should include the title of the game, the rooms and their connections, and any additional information such as enemies or interactive objects. The Game Map should also look pretty.  It does not need to be something created in Photoshop, but it should be something a little better than Microsoft Paint.
 
@@ -40,15 +41,18 @@ I recommend collaborating on a Google document such as Google Slides or Google D
 Note that a rough draft of the Game Map is due before the Presentation.  This is mainly for me to provide you with feedback, so the more detailed you can make it, the more feedback I will be able to provide you. Include a walkthrough to tell me how to play your game to a successful completion.
 
 Deliverables for this portion include:
+
 1.	An attractive game map
 2.	A user guide, including instructions and a walkthrough that describes how to successfully complete the game
-3.	An internal design and requirements document that the team will use to move from the design stage to the implementation stage. This document should be as complete as possible; ideally the team should be able to send this document to a team of offshore contractors and get back exactly the game they expect. It should include:
-a.	A description of the flow, logic, and organization of the game, including:
-i.	A flowchart of user interaction with the game
-b.	A full list of the rooms and their characteristics, including any puzzles or objects that appear in them
-c.	A full list of commands that the player can execute, what they can be executed on, and the expected outcome
-d.	Error handling and reporting requirements
-e.	Anything else you feel is needed
+3.	An internal design and requirements document that the team will use to move from the design stage to the implementation stage. This document should be as complete as possible; ideally the team should be able to send this document to a team of offshore contractors and get back exactly the game they expect.
+
+This design document should include:
+
+- A description of the flow, logic, and organization of the game, including a flowchart of user interaction with the game
+- A full list of the rooms and their characteristics, including any puzzles or objects that appear in them
+- A full list of commands that the player can execute, what they can be executed on, and the expected outcome
+- Error handling and reporting requirements
+- Anything else you feel is needed
 
 ## Source Code - 60%
 
@@ -91,44 +95,58 @@ use [thing]
 ```
 This is a very general command, whose meaning depends on the Thing. Using a gun is very different from using a key, or a chocolate. Most often, though, games require more specific verbs: shoot gun, open safe, eat chocolate. Depending on your game and specific items, this may or may not be needed.
 
-Every command should get a response. If there is nothing much to say, the response can be simply OK. If the command can't be done, the player should be told, for instance, "I don't understand"? or "You can't go that way." When the player moves to a new location, the response should usually be a full description of the newly-entered Room.
+Every command should get a response. If there is nothing much to say, the response can be simply OK. If the command can't be done, the player should be told, for instance, "I don't understand" or "You can't go that way." When the player moves to a new location, the response should usually be a full description of the newly-entered Room.
 
-## Program Details
+### Program Details
 
 An adventure game consists of:
+
 1. A TextAdventure class. This class:
+
 - Contains the main method used to start the game.
 - Talks to the AdventureModel and to the Adventurer classes, as needed.
+
 2. An AdventureModel class. This class:
+
 - Creates the Rooms, the Things, and the Adventurer.
 - Connects the Rooms with "paths" to other Rooms.
 - Places Things in the Rooms.
 - Places the Adventurer in some Room.
 - Accepts commands from the player, and executes them.
--- As commands are entered, they should be copied to the main text area.
--- The method that executes commands should return a String to be displayed in the main text area.
+- As commands are entered, they should be copied to the main text area.
+- The method that executes commands should return a String to be displayed in the main text area.
+
 3. An Adventurer (the human player).
-- An adventurer has:
--- A location (some room).
--- An inventory (the things being carried).  When the player executes the "take thing" command, the item should be added to the inventory.
-- An adventurer can:
--- Move from room to room.
--- Carry a number of objects.
--- Pick up, drop, look at, and use various objects.
+
+An adventurer has:
+
+- A location (some room).
+- An inventory (the things being carried).  When the player executes the "take thing" command, the item should be added to the inventory.
+
+An adventurer can:
+
+- Move from room to room.
+- Carry a number of objects.
+- Pick up, drop, look at, and use various objects.
+
 4. Some number of Rooms. A room has:
+
 - A name.
 - A description, possibly several sentences long.
 - Contents: the things in the room.
 - Exits: paths to other rooms (usually some of north, south, east, and west).
-- Some number of Things. A thing has:
--- A name
---- If some of your Things have multi-word names, such as "fire-breathing dragon" or "that thing that your aunt gave you that you don't know what it is", then you might want to give your Things both a full name and a one-word name.
--- A description, to be shown when the adventurer "looks" at it.
--- One or more methods for using the Thing. You can have a multi-purpose use verb, or you can make up your own verbs (for instance, drink water or pour water), which determines what the thing does when the adventurer tries to use it.
--- For simplicity, we will say that the adventurer can only use things being carried (in the inventory)
--- Whether "using" a thing does anything or not (or exactly what it does) can depend on what room it is in, what other things are in the room or in the inventory, or any other conditions you can think of.
+- Some number of Things.
+
+A thing has:
+
+- A name (If some of your Things have multi-word names, such as "fire-breathing dragon" or "that thing that your aunt gave you that you don't know what it is", then you might want to give your Things both a full name and a one-word name.)
+- A description, to be shown when the adventurer "looks" at it.
+- One or more methods for using the Thing. You can have a multi-purpose use verb, or you can make up your own verbs (for instance, drink water or pour water), which determines what the thing does when the adventurer tries to use it.
+- For simplicity, we will say that the adventurer can only use things being carried (in the inventory)
+- Whether "using" a thing does anything or not (or exactly what it does) can depend on what room it is in, what other things are in the room or in the inventory, or any other conditions you can think of.
 
 Your assignment is to write an adventure game with your group. It should have:
+
 - A general location (battlefield, outer space, etc.)
 - At least 10 rooms
 - At least 6 objects (At least 4 of the objects should have some "use" relevant to the game.)
@@ -138,10 +156,9 @@ Your assignment is to write an adventure game with your group. It should have:
 - Be sure only the minimum methods are public; most of your methods and variables should be private
 
 The theme of the game, and the goal of the game, is up to you.
-So that your adventure game is not too difficult to grade, please:
-- Don't let the player "die" or otherwise get into a situation from which there is no possibility of winning the game.
+So that your adventure game is not too difficult to grade, please don't let the player "die" or otherwise get into a situation from which there is no possibility of winning the game.
 
-## Structure of the program 
+### Structure of the program 
 
 - Project name: TextAdventure
 - Package name: adventure
@@ -158,22 +175,30 @@ I expect each team member to participate.  During the presentation, you are expe
 
 Do your best to set the scene for your game.  Imagine that you were pitching your game to a video game company such as Activision: why should they publish YOUR game?  Be as creative as possible: do a skit, use Powerpoint, whatever fits your game.
 
-Just don’t forget to demo the game, and show the class your Game Map.
+Just don't forget to demo the game, and show the class your Game Map.
 
 ## Due dates
 
 This project will have three milestones, at which time you are expected to deliver part of your work on this project. They are:
+
 1. Group Assignment 1, due 2/24/2017
-- Core implementation of the TestAdventure, AdventureModel, and Adventurer, and Room classes, demonstrating:
--- Setup and loading of the game
--- Basic player I/O via the console, including the ability to accept commands
--- Basic Adventurer interaction with a single room, including the ability to apply commands to that room that will generate appropriate output
--- (Navigation is not need at this point, just commands like look, take, use, etc.)
--- Note that at this point I am interested only in *core functionality*. I'm not looking for a fully-realized game world (that comes in part 2) or a wide variety of Rooms, Things, and Puzzles to interact with (that comes in part 3).
+
+Demonstrate core implementation of the game engine including TestAdventure, AdventureModel, and Adventurer, and Room classes, demonstrating:
+
+- Setup and loading of the game
+- Basic player I/O via the console, including the ability to accept commands
+- Basic Adventurer interaction with a single room, including the ability to apply commands to that room that will generate appropriate output
+- (Navigation is not need at this point, just commands like look, take, use, etc.)
+- Note that at this point I am interested only in *core functionality*. I'm not looking for a fully-realized game world (that comes in part 2) or a wide variety of Rooms, Things, and Puzzles to interact with (that comes in part 3).
+
 2. Group Assignment 2, due 3/24/2017
-- Core design of the game, and production of the Game Map, Instructions, and Documentation
-- Creation of internal design and requirements documents for production team.
+
+- Core design of the game
+- Production of the Game Map, Instructions, and Documentation for external audiences (the players)
+- Creation of Design and Requirements documentation for internal audiences (the development team)
+
 3. Group Assignment 3, due 4/21/2017
+
 - Completion of code, meeting all the requirements listed above
 - Preparation of 5-10 minute demo of your game to the class
 
