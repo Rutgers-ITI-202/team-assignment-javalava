@@ -1,8 +1,11 @@
 # TextAdventure
+
 ## Text Adventure Group Project
+
 ### ITI 202: Object-Oriented Programming
 
-Professor Charlie File
+Professor: Charlie File
+
 Due Date: 2/24/2017
 
 This is group assignment.  You are allowed to collaborate within your group, but not with other groups.  You should have no more than three people in your group.
@@ -18,7 +21,8 @@ Please refer to the Syllabus for information regarding Rutgers' Academic Integri
 
 ## Overview
 
-For this final group project, the goal is to write a text adventure game.  Never played one before?  
+For this final group project, the goal is to write a text adventure game.  Never played one before?
+ 
 Examples:
 - [http://www.ifiction.org/](http://www.ifiction.org/)
 - "Colossal Cave Adventure" (available on both iOS and Android) 
@@ -186,6 +190,6 @@ This project will have three milestones, at which time you are expected to deliv
 
 Your Presentation will occur on the final day of class, 4/21/2017.  On this day, you will also present your Game Map.
 
-* I reserve the right to give extra credit to particularly good games. *
+I reserve the right to give extra credit to particularly good games!
 
 On the final day of class, you will also complete a reflection on the overall project, including a peer review of your team members' contributions. I will take this peer review into consideration when assigning your final grades.
