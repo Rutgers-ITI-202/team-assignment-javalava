@@ -38,7 +38,10 @@ startGame(); // start game sequence
 		String A = begin.nextLine();
 			if (A.equalsIgnoreCase("a") == true){
 				System.out.println("Game loading...");
-							// INSERT METHOD TO INTRODUCE ROOM AND PLAYER
+							AdventureModel.Tutorial();
+							AdventureModel.CharacterIntro();
+							AdventureModel.FirstRoomDescribe();
+							AdventureModel.FirstRoomAdventure();
 			} else if (A.equalsIgnoreCase("a") == false){
 				System.out.println("You entered " + A + ", which did not work.");
 				startGame();
