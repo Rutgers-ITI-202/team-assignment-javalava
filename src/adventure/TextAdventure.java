@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  * Main method of text adventure
- * @author ChrisMCD
+ * @author Chris
  * @since 2/11/17
  *
  */
@@ -29,7 +29,7 @@ startGame(); // start game sequence
 /**
  * Method to boot the game
  * @author: ChrisMDC
- * @since: 2/11/17
+ * @since: 2/16/17
  */
 
 	public static void startGame() {
@@ -38,11 +38,11 @@ startGame(); // start game sequence
 		String A = begin.nextLine();
 			if (A.equalsIgnoreCase("a") == true){
 				System.out.println("Game loading...");
-							AdventureModel.Tutorial();
+							AdventureModel.Tutorial();		// introduction to the game, all Strings in AdventureModel
 							AdventureModel.CharacterIntro();
 							AdventureModel.FirstRoomDescribe();
-							AdventureModel.FirstRoomAdventure();
-			} else if (A.equalsIgnoreCase("a") == false){
+							AdventureModel.FirstRoomAdventure();							
+			} else if (A.equalsIgnoreCase("a") == false){		// catch exceptions
 				System.out.println("You entered " + A + ", which did not work.");
 				startGame();
 			}
