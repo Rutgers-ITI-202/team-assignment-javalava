@@ -34,7 +34,7 @@ public static void Tutorial() {
  */
 
 public static void CharacterIntro() {			
-	System.out.println("You are a child of the 180's Industrial Revolution. \r"
+	System.out.println("You are a child of the 1800's Industrial Revolution. \r"
 			+ "You came to this factory to work, but the owner seems to have other plans for you. \r"
 			+ "While the factory is closed down, you have to escape. \r");
 }
@@ -52,6 +52,8 @@ public static void FirstRoomDescribe(){
 			+ "a desk where the supervisor usually sits and smokes cigars. \r \rWhat do you want to do? \r");
 	
 }
+
+// Dave : Might want to integrate some sort of notation that lets the player know exactly what to type, like "You can \[Look\], \[Go to desk\], \[Go to door\] 
 
 /**
  * Preliminary First Room Actions
@@ -76,4 +78,50 @@ public static void FirstRoomAdventure() {
 		}
 }
 
+/**
+ * Desk Description 
+ * Note: Describes the desk when the player goes near it. Can be reused
+ * @author Dave
+ * @since 2/19/17 
+ */
+
+public static void DeskDescribe( ){
+	
+	System.out.println("You cautiously approach your bosses desk. The smell of cigar ashes reminds you of the fact that they could be lurking about");
+	System.out.println("You see a partially opened drawer the the desk");
+	System.out.println( "You can: open /[Menu/] /[Look/], Open /[Drawer/], and /[Return/]");
+	
+	
+}
+
+/**
+ * Desk Actions 
+ * Note: This is a set of actions for when the user comes up to the desk
+ * @author Dave
+ * @since 2/19/17 
+ */
+
+public static void FirstRoomDesk() { 
+	Scanner D = new Scanner(System.in) ;
+	String action = D.nextLine();
+
+	
+	 if (action.equalsIgnoreCase("MENU") == true) {
+		 Adventurer.MENU();  // Goes to menu in Adventurer Class
+	 }
+		 else if (action.equalsIgnoreCase("Look") == true){
+		Adventuremodel.FirstRoomDesk() ; 
+	 }
+	 
+		 else if (action.equalsIgnoreCase("Drawer") == true) {
+			 
+	// Need to figure out how a key would integrate with the other models befor eI do this part
+}
+		 else if (action.equalsIgnoreCase("Return") == true)
+			 
+			 AdventureModel.FirstRoomAdventure() ; 
+	 
+	 System.out.println("You have returned to the main area of the break room.");
+			 
+}
 }
