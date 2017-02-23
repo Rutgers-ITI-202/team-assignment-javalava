@@ -16,102 +16,178 @@ import java.util.Scanner;
 
 public class Adventurer {
 	
-	// CONSTANTS
+	// CONSTANTS	
 		
+	public static ArrayList<String> itemList = new ArrayList<String>();
+	
 	// END CONSTANTS
 
 /**
- * Allows Player Access to Menu to view inventory, quit game, exit menu
- * More functionalities to come
- * @author ChrisMDC
- * @since 2/11/2017
- *
+ * Allows Player Access to Menu to view inventory, quit game, exit menu * 
+ * @author Chris
+ * @param origin - allows player to return to where they opened menu
+ * @since 2/22/17
+ * @version 1.1
+ * 
  */	
-public static void MENU() {
+public static void MENU(String origin) {
 	boolean menuLoop = false;
-	System.out.println("<<OPEN MENU>> \rView Inventory: A \rQuit Game: B \rExit Menu: C");
+	System.out.println("<<MENU>> \rView Inventory: A \rQuit Game: B \rExit Menu: C");
 	do {
 	Scanner menu = new Scanner(System.in);
 	String option = menu.nextLine();			
 		if (option.equalsIgnoreCase("A") == true){			
 			menuLoop = true;
-			INVENTORY();
+			INVENTORY(origin);
 		} else if (option.equalsIgnoreCase("B") == true) {
-			// METHOD TO QUIT GAME HERE
+			TextAdventure.quitGame(origin);
 			menuLoop = true;
 		} else if (option.equalsIgnoreCase("C") == true){
 			System.out.println("<<CLOSED MENU>>");
-			// return to game
+				if (origin.equalsIgnoreCase("MAINBREAKROOM") == true)
+					AdventureModel.FirstRoomDescribe();
+				else if (origin.equalsIgnoreCase("DESK") == true){
+					AdventureModel.DeskDescribe();
+				} else if (origin.equalsIgnoreCase("DRAWER") == true){
+					AdventureModel.DeskDrawer();
+				} else if (origin.equalsIgnoreCase("DOOR") == true){
+					AdventureModel.DoorDescribe();
+				}
 			menuLoop = true;
 		} else {
-			System.out.println("Your entry " + option + ", is not a viable option. Enter again.");
+			System.out.println("You can't do that here.");
+			MENU(origin);
 		}	
 }	while (menuLoop = false);
 	
 }
 
 /** 
- * Method to add / drop things from inventory
+ * sets up initial inventory with GUM and WATCH
  * @author Chris
  * @since 2/16/17
- * @version 1.0
+ * @version 1.0 * 
  * @return itemList
  */
 
 public static ArrayList<String> inventoryManage(){
-	ArrayList<String> itemList = new ArrayList<String>();
 	itemList.add("GUM"); itemList.add("WATCH");
 	return itemList;
-}
+} 
 
 /** Method to view inventory
  * @author Chris
- * @param itemsList
+ * @param origin (see MENU method)
  * @since 2/18/17
  * @version 1.1
  */
 
 
-public static void INVENTORY(){
-	System.out.println("You have: " + inventoryManage() + ". What do you want to do? Close or choose item: ");
+public static void INVENTORY(String origin){
+	System.out.println("You have: " + itemList + ". Close or choose item.");
 	Scanner p = new Scanner(System.in);
 	String nextaction = p.nextLine();
-		if (nextaction.equalsIgnoreCase("GUM") == true){
-			gumMethod();
-		} else if (nextaction.equalsIgnoreCase("WATCH") == true){
-			
-			watchMethod();
+		if (itemList.contains("GUM") && nextaction.equalsIgnoreCase("GUM") == true){
+			gumMethod(origin);
+		} else if (itemList.contains("WATCH") && nextaction.equalsIgnoreCase("WATCH") == true){			
+			watchMethod(origin);
 		} else if (nextaction.equalsIgnoreCase("CLOSE") == true){
-			// close menu, return to game
-		} else {
-			System.out.println("You can't do that here.");
+			MENU(origin);
+		} else if (itemList.contains("KEY") && nextaction.equalsIgnoreCase("KEY") == true){
+			keyMethod(origin);
 		}
-	
-}
-	// TODO Auto-generated method stub
+		else if (itemList.isEmpty() == true){
+		
+			System.out.println("You don't have anything in your inventory.");
+			MENU(origin);
+		} else {		
+			System.out.println("You don't have that.");
+			INVENTORY(origin);
+		}	
 
-public static void gumMethod(){
+}
+
+/**
+ * Method includes all interactions with gum
+ * @author Chris
+ * @since 2/22/17
+ * @version 1.0
+ * @param origin
+ */
+
+public static void gumMethod(String origin){
 	System.out.println("What do you want to do with the GUM?");
 	Scanner g = new Scanner(System.in);
 	String whatgum = g.next();
 	if (whatgum.equalsIgnoreCase("USE") == true){
 		System.out.println("You unwrap the gum and put it in your mouth. It's really minty.");
+		MENU(origin);
 	} else if (whatgum.equalsIgnoreCase("LOOK") == true){
 		System.out.println("The gum advertises: \"Chewing Gum for Athletes and Cyclists!\"");
+		MENU(origin);
+	} else if (whatgum.equalsIgnoreCase("DROP") == true){
+		System.out.println("You dropped the gum.");
+		itemList.remove("GUM");
+		MENU(origin);
+	} else {
+		System.out.println("You can't do that here.");
+		gumMethod(origin);
 	}
 }
 
-public static void watchMethod(){
+
+
+/**
+ * Method for all interactions with watch
+ * @author Chris
+ * @param origin
+ * @since 2/22/2017
+ * @version 1.0
+ */
+
+public static void watchMethod(String origin){
 	System.out.println("What do you want to do with the WATCH?");
 	Scanner g = new Scanner(System.in);
-	String whatgum = g.next();
-	if (whatgum.equalsIgnoreCase("USE") == true){
+	String whatwatch = g.next();
+	if (whatwatch.equalsIgnoreCase("USE") == true){
 		System.out.println("You can't use this here.");
-	} else if (whatgum.equalsIgnoreCase("LOOK") == true){
+		watchMethod(origin);
+	} else if (whatwatch.equalsIgnoreCase("LOOK") == true){
 		System.out.println("It's old and broken, stuck on the time 9:55 AM.");
+		MENU(origin);
+	} else if (whatwatch.equalsIgnoreCase("DROP") == true){
+		System.out.println("You dropped the watch.");
+		 itemList.remove("WATCH");
+		MENU(origin);
+	} else{
+		System.out.println("You can't do that here.");
+		watchMethod(origin);
 	}
 	
 }
-	
+
+public static void keyMethod(String origin){
+	System.out.println("What do you want to do with the KEY?");
+	Scanner k = new Scanner(System.in);
+	String whatkey = k.nextLine();
+		if(whatkey.equalsIgnoreCase("LOOK") == true){
+			System.out.println("The key is silver and heavy. It looks like it can be helpful here.");
+			MENU(origin);
+		} else if (whatkey.equalsIgnoreCase("USE") == true && origin == "DOOR"){
+			System.out.println("The key fits! You open the door, and find a long hallway -- and a long adventure -- ahead.");
+			System.out.println("DEMO END! THANKS FOR PLAYING!");
+		} else if (whatkey.equalsIgnoreCase("USE") == true){
+			System.out.println("You can't use this here.");	
+			MENU(origin);
+		} else if (whatkey.equalsIgnoreCase("DROP") == true){
+			System.out.println("This key looks important. You decide not to drop it.");
+			MENU(origin);
+		} else {
+			System.out.println("You can't do that here.");
+			MENU(origin);
+		} 
+
+}
+
 }
 

@@ -15,16 +15,7 @@ import java.util.Scanner;
 
 public class AdventureModel {
 
-/**
- * Tutorial Listing
- * Lets user know syntax for basic commands
- * @author Chris
- * @since 2/16/17	
- */
-	
-public static void Tutorial() {						
-	System.out.println("Basic commands are: LOOK, TAKE, USE, GO to LOCATION, and MENU \r");
-}
+
 
 /**
  * Introduces character
@@ -47,9 +38,10 @@ public static void CharacterIntro() {
  */
 
 public static void FirstRoomDescribe(){
-	System.out.print("You see looms, currently unused, lining the room. \r"
+	System.out.print("You wake up, alone, on a chair in the break room. \r"
 			+ "There's an intimidating metal door at the far end of the room, and \r"
-			+ "a desk where the supervisor usually sits and smokes cigars. \r \rWhat do you want to do? \r");
+			+ "a desk where the supervisor usually sits and smokes cigars.\r");
+	FirstRoomAdventure();
 	
 }
 
@@ -63,18 +55,20 @@ public static void FirstRoomDescribe(){
  */
 
 public static void FirstRoomAdventure() {
+	System.out.println("What do you want to do? You can [MENU] [LOOK] [GO TO DESK] [GO TO DOOR]");
 	Scanner m = new Scanner(System.in);
 	String action = m.nextLine();
 		if (action.equalsIgnoreCase("MENU") == true){
-			Adventurer.MENU();	// opens menu in Adventurer class
+			Adventurer.MENU("MAINBREAKROOM");	// opens menu in Adventurer class
 		} else if (action.equalsIgnoreCase("LOOK") == true){
 			AdventureModel.FirstRoomDescribe();
 		} else if (action.equalsIgnoreCase("GO TO DESK") == true) {
-			/// GOES TO DESK, which has the KEY
+			DeskDescribe();
 		} else if (action.equalsIgnoreCase("GO TO DOOR") == true) {
-			/// GO TO DOOR, which we can't unlock without the KEY
+			DoorDescribe();
 		} else {			// catch exceptions
 			System.out.println("You can't do that here.");
+			FirstRoomAdventure();
 		}
 }
 
@@ -87,11 +81,9 @@ public static void FirstRoomAdventure() {
 
 public static void DeskDescribe( ){
 	
-	System.out.println("You cautiously approach your bosses desk. The smell of cigar ashes reminds you of the fact that they could be lurking about");
-	System.out.println("You see a partially opened drawer the the desk");
-	System.out.println( "You can: open /[Menu/] /[Look/], Open /[Drawer/], and /[Return/]");
-	
-	
+	System.out.println("You cautiously approach your boss' desk. The smell of cigar ashes reminds you of the fact that they could be lurking about");
+	System.out.println("You see a partially opened drawer the the desk.");
+	FirstRoomDesk();	
 }
 
 /**
@@ -102,26 +94,87 @@ public static void DeskDescribe( ){
  */
 
 public static void FirstRoomDesk() { 
+	System.out.println( "You can: [MENU] [LOOK] [OPEN DRAWER] [RETURN]");
 	Scanner D = new Scanner(System.in) ;
 	String action = D.nextLine();
-
-	
 	 if (action.equalsIgnoreCase("MENU") == true) {
-		 Adventurer.MENU();  // Goes to menu in Adventurer Class
+		 Adventurer.MENU("DESK");  // Goes to menu in Adventurer Class
 	 }
 		 else if (action.equalsIgnoreCase("Look") == true){
-		Adventuremodel.FirstRoomDesk() ; 
-	 }
-	 
-		 else if (action.equalsIgnoreCase("Drawer") == true) {
-			 
-	// Need to figure out how a key would integrate with the other models befor eI do this part
+		DeskDescribe(); 
+	 }	 
+		 else if (action.equalsIgnoreCase("Open Drawer") == true) {		
+			 DeskDrawer();
 }
-		 else if (action.equalsIgnoreCase("Return") == true)
-			 
-			 AdventureModel.FirstRoomAdventure() ; 
-	 
-	 System.out.println("You have returned to the main area of the break room.");
-			 
+		 else if (action.equalsIgnoreCase("Return") == true){
+		System.out.println("You have returned to the main area of the break room.");	 
+			 AdventureModel.FirstRoomAdventure() ;
+		 } else { 
+			 System.out.println("You can't do that here.");
+			 FirstRoomDesk();
+		 }
 }
+
+/**
+ * Method includes interactions with the desk drawer.
+ * @author Chris
+ * @since 2/22/17
+ * @version 1.0
+ */
+
+public static void DeskDrawer(){
+	if (Adventurer.itemList.contains("KEY") == true){
+		System.out.println("Now there's nothing here but dust bunnies.");
+		FirstRoomDesk();
+	} else {
+	System.out.println("Aside from the dust bunnies, you see a silver key in the drawer. It looks like it can fit the door.");
+	System.out.println("You can: [MENU] [TAKE] [RETURN]");
+	Scanner t = new Scanner(System.in);
+	String take = t.nextLine();
+		if(take.equalsIgnoreCase("TAKE") == true){
+			System.out.println("You pick up the key and put it into your bag.");
+			Adventurer.itemList.add("KEY");
+			DeskDrawer();
+		} else if (take.equalsIgnoreCase("MENU") == true){
+			Adventurer.MENU("Drawer");
+		} else if (take.equalsIgnoreCase("RETURN") == true){
+			System.out.println("You closed the drawer.");
+			FirstRoomDesk();
+		} else {
+			System.out.println("You can't do that here.");
+			DeskDrawer();
+		}
+	}
+}
+
+public static void DoorDescribe(){
+	System.out.println("You go to the door, which is made of heavy metal. There's no breaking dowh this thing."
+			+ "\rThere's a little keyhole in the doorknob, though.");
+	FirstRoomDoor();
+}
+
+public static void FirstRoomDoor(){
+	System.out.println("You can: [LOOK] [MENU] [OPEN DOOR] [RETURN]");
+	Scanner d = new Scanner(System.in);
+	String action = d.nextLine();
+		if (action.equalsIgnoreCase("OPEN DOOR") == true && Adventurer.itemList.contains("KEY") == true){
+			System.out.println("The key fits! You open the door, and find a long hallway -- and a long adventure -- ahead.");
+			System.out.println("DEMO END! THANKS FOR PLAYING!");
+		} else if (action.equalsIgnoreCase("LOOK") == true){
+			DoorDescribe();
+		}else if (action.equalsIgnoreCase("MENU") == true){
+			Adventurer.MENU("DOOR");
+		} else if (action.equalsIgnoreCase("RETURN") == true){
+			System.out.println("You have returned to the main area of the break room.");
+			FirstRoomAdventure();
+		} else if (action.equalsIgnoreCase("OPEN DOOR") == true){
+			System.out.println("You fiddle with the doorknob, but it won't budge.");
+			FirstRoomDoor();
+		} else {
+			System.out.println("You can't do that here.");
+			FirstRoomDoor();
+		}
+	
+}
+
 }
