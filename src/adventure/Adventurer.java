@@ -25,7 +25,7 @@ public class Adventurer {
 /**
  * Allows Player Access to Menu to view inventory, quit game, exit menu * 
  * @author Chris
- * @param origin - allows player to return to where they opened menu
+ * @param origin - allows player to return to where they opened menu.
  * @since 2/22/17
  * @version 1.1
  * 
@@ -77,7 +77,8 @@ public static ArrayList<String> inventoryManage(){
 
 /** Method to view inventory
  * @author Chris
- * @param origin (see MENU method)
+ * @param origin
+ * @see Menu() for description about origin parameter
  * @since 2/18/17
  * @version 1.1
  */
@@ -108,11 +109,13 @@ public static void INVENTORY(String origin){
 }
 
 /**
- * Method includes all interactions with gum
+ * Method includes all interactions with gum including LOOK, USE, and DROP
  * @author Chris
  * @since 2/22/17
  * @version 1.0
  * @param origin
+ * @see Menu() for description about origin parameter
+ * 
  */
 
 public static void gumMethod(String origin){
@@ -138,9 +141,10 @@ public static void gumMethod(String origin){
 
 
 /**
- * Method for all interactions with watch
+ * Method for all interactions with watch including LOOK, USE, and DROP
  * @author Chris
  * @param origin
+ * @see Menu() for description about origin parameter
  * @since 2/22/2017
  * @version 1.0
  */
@@ -165,6 +169,14 @@ public static void watchMethod(String origin){
 	}
 	
 }
+/**
+ * Method for all interactions with the key, including LOOK, USE, and DROP
+ * @author Chris
+ * @param origin
+ * @see Menu() for description about origin parameter
+ * @since 2/22/2017
+ * @version 1.0
+ */
 
 public static void keyMethod(String origin){
 	System.out.println("What do you want to do with the KEY?");

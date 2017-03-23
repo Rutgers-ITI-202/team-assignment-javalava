@@ -19,7 +19,7 @@ public class AdventureModel {
 
 /**
  * Introduces character
- * Can possibly print whenever the user wants context?
+ * Prints at beginning of code to give context to the user.
  * @author Chang and Chris
  * @since 2/16/17
  */
@@ -32,7 +32,7 @@ public static void CharacterIntro() {
 
 /**
  * Describes the room
- * Can be evoked again to remind player of what the room looks like.
+ * Can be evoked again to remind player of what the current room looks like.
  * @author Chang and CHris
  * @since 2/16/17
  */
@@ -74,7 +74,7 @@ public static void FirstRoomAdventure() {
 
 /**
  * Desk Description 
- * Note: Describes the desk when the player goes near it. Can be reused
+ * Note: Describes the desk when the player goes near it. Will print if player 'looks' in FirstRoomDesk()
  * @author Dave
  * @since 2/19/17 
  */
@@ -88,7 +88,7 @@ public static void DeskDescribe( ){
 
 /**
  * Desk Actions 
- * Note: This is a set of actions for when the user comes up to the desk
+ * Note: This is a set of actions for when the user comes up to the desk including MENU, LOOK, OPEN, and RETURN
  * @author Dave
  * @since 2/19/17 
  */
@@ -116,7 +116,8 @@ public static void FirstRoomDesk() {
 }
 
 /**
- * Method includes interactions with the desk drawer.
+ * Method includes interactions with the desk drawer including MENU, TAKE, RETURN. If user does not have a key, it prints an alternate
+ * description and redirects the user to FirstRoomDesk();
  * @author Chris
  * @since 2/22/17
  * @version 1.0
@@ -147,11 +148,28 @@ public static void DeskDrawer(){
 	}
 }
 
+/**
+ * Method prints the description of the door then redirects the user to the FirstRoomDoor(). 
+ * Will reprint if the user LOOKs in FirstRoomDoor()
+ * @author Dave
+ * @since 2/22/17
+ * @version 1.0
+ */
+
+
 public static void DoorDescribe(){
 	System.out.println("You go to the door, which is made of heavy metal. There's no breaking dowh this thing."
 			+ "\rThere's a little keyhole in the doorknob, though.");
 	FirstRoomDoor();
 }
+
+/**
+ *Includes all functions having to do with the door, such as LOOK, MENU, OPEN DOOR, and RETURN.
+ *If the user has the key, the door will open.
+ *@author Chris
+ *@since 2/22/17
+ *@version 1.0
+ */
 
 public static void FirstRoomDoor(){
 	System.out.println("You can: [LOOK] [MENU] [OPEN DOOR] [RETURN]");

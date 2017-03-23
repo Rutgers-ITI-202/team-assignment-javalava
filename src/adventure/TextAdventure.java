@@ -54,7 +54,8 @@ startGame(); // start game sequence
  * @author Chris
  * @since 2/22/17
  * @version 1.0
- * @param origin (see MENU method)
+ * @param origin 
+ * @see Menu() for description about origin parameter
  * 
  */
 	
