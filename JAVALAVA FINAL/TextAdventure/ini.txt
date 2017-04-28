@@ -1,0 +1,435 @@
+ASCII1.%%%%%%..%%..%%..%%%%%%...........%%%%...%%%%%%...%%%%...%%%%%....%%%%...%%..%%..........%%%%%%...%%%%...%%%%%...........%%%%%....%%%%...%%%%%...%%.......%%%%..
+ASCII2 ...%%....%%..%%..%%..............%%......%%......%%..%%..%%..%%..%%..%%..%%..%%..........%%......%%..%%..%%..%%..........%%..%%..%%..%%..%%..%%..%%......%%..%%.
+ASCII3...%%....%%%%%%..%%%%.............%%%%...%%%%....%%%%%%..%%%%%...%%......%%%%%%..........%%%%....%%..%%..%%%%%...........%%%%%...%%%%%%..%%%%%...%%......%%..%%.
+ASCII4...%%....%%..%%..%%..................%%..%%......%%..%%..%%..%%..%%..%%..%%..%%..........%%......%%..%%..%%..%%..........%%......%%..%%..%%..%%..%%......%%..%%.
+ASCII5...%%....%%..%%..%%%%%%...........%%%%...%%%%%%..%%..%%..%%..%%...%%%%...%%..%%..........%%.......%%%%...%%..%%..........%%......%%..%%..%%%%%...%%%%%%...%%%%..
+ASCII6................................................................................................................................................................
+
+OPEN  Pablo was always talking about escaping, but you didn't believe him until he was gone. He was your only friend--you two shared fantasies of going on adventures as cowboys, pirates, or mercernaries. It's been a week since he was gone. The factory has become lonely. Day in and day out you work at the looms. Lately food has been getting tight-- portions were getting smaller and smaller, to the point where they rarely had lunch and only had a few small crackers for breakfast. But you never thought of leaving... until now. Tonight you hear Pablo warning you in a dream, and the next thing you knew, you wake up in the break room in the middle of the night. You don't know how you left your bed or why the most of the guards and supervisors weren't around. Now, your heart is pounding. Maybe it's really time to leave. Maybe you can reunite with Pablo and go on the adventures you both dreamed of together.
+
+ITEMS 
+ropeD It's a really worn down rope that you and Pablo would play with during break times.
+lighD You've had this lighter since you could remember. It has the initials C.F. on it, but you don't know what that means. You know it works, but you've rarely used it for fear of it running out of juice. You've kept it well hidden from the guards your entire time here.
+blueD It's a silverish blue and sits lightly in your palm. It's a very clean key.
+greeD This green key is coarse, and the color reminds you of vomit.
+yellD This key is a really ugly, gross looking yellow.
+red D The color of red on this key makes you strangely uncomfortable.
+pistD It's a very sleek black, but it kind of scares you to look at it. It's fully loaded, too.
+bookD When you open the book, you see a compartment. Inside is a black key.
+b0okD There's nothing in this book now, not even words.
+blacD The black key is the blackest you've ever seen. 
+goldD This is the master key. It'll probably work on everything in this factory.
+pictD There's a picture of a baby, dark haired woman, and a man who looks eerily like your boss.
+
+CLUES
+
+TORN PAPER FROM CONVEYOR CLUE
+
+
+CLU1 1| |     _____    | || | ____  _____  | || | ____   ____  | || |     ____     | || |     _____    | || |     ______   | || |  _________   | |
+CLU1 2| |    |_   _|   | || ||_   \|_   _| | || ||_  _| |_  _| | || |   .'    `.   | || |    |_   _|   | || |   .' ___  |  | || | |_   ___  |  | |
+CLU1 3| |      | |     | || |  |   \ | |   | || |  \ \   / /   | || |  /  .--.  \  | || |      | |     | || |  / .'   \_|  | || |   | |_  \_|  | |
+CLU1 4| |      | |     | || |  | |\ \| |   | || |   \ \ / /    | || |  | |    | |  | || |      | |     | || |  | |         | || |   |  _|  _   | |
+CLU1 5| |     _| |_    | || | _| |_\   |_  | || |    \ ' /     | || |  \  `--'  /  | || |     _| |_    | || |  \ `.___.'\  | || |  _| |___/ |  | |
+CLU1 6| |    |_____|   | || ||_____|\____| | || |     \_/      | || |   `.____.'   | || |    |_____|   | || |   `._____.'  | || | |_________|  | |
+CLU1 7| |              | || |              | || |              | || |              | || |              | || |              | || |              | |
+CLU1 8 Note to Sir--- I'm sorry for the shortage this month. We're barely feeding ourselves.
+
+CLU112
+
+BURNED RAGS CLUE
+CLU2 0____  ____   ___   _____  ___  _____ _____  ___   ____          __      _____  ____  _        ___          ______  __ __    ___      ___ ___   ____  ____       __    __  __ __   ___          __   ____  __ __  _____   ___  ___        ____   __ __    __  _        ___   ____  ____       _____   ____  _      _       ___   __ __  ______ 
+CLU2 1|    \|    \ /   \ |     |/  _]/ ___// ___/ /   \ |    \        /  ]    |     ||    || |      /  _]        |      ||  |  |  /  _]    |   |   | /    ||    \     |  |__|  ||  |  | /   \        /  ] /    ||  |  |/ ___/  /  _]|   \      |    \ |  |  |  /  ]| |      /  _] /    ||    \     |     | /    || |    | |     /   \ |  |  ||      |
+CLU2 2|  o  )  D  )     ||   __/  [_(   \_(   \_ |     ||  D  )      /  /     |   __| |  | | |     /  [_         |      ||  |  | /  [_     | _   _ ||  o  ||  _  |    |  |  |  ||  |  ||     |      /  / |  o  ||  |  (   \_  /  [_ |    \     |  _  ||  |  | /  / | |     /  [_ |  o  ||  D  )    |   __||  o  || |    | |    |     ||  |  ||      |
+CLU2 3|   _/|    /|  O  ||  |_|    _]\__  |\__  ||  O  ||    /      /  /      |  |_   |  | | |___ |    _]        |_|  |_||  _  ||    _]    |  \_/  ||     ||  |  |    |  |  |  ||  _  ||  O  |     /  /  |     ||  |  |\__  ||    _]|  D  |    |  |  ||  |  |/  /  | |___ |    _]|     ||    /     |  |_  |     || |___ | |___ |  O  ||  |  ||_|  |_|
+CLU2 4|  |  |    \|     ||   _]   [_ /  \ |/  \ ||     ||    \     /   \_  __ |   _]  |  | |     ||   [_  __       |  |  |  |  ||   [_     |   |   ||  _  ||  |  |    |  `  '  ||  |  ||     |    /   \_ |  _  ||  :  |/  \ ||   [_ |     |    |  |  ||  :  /   \_ |     ||   [_ |  _  ||    \     |   _] |  _  ||     ||     ||     ||  :  |  |  |  
+CLU2 5|  |  |  .  \     ||  | |     |\    |\    ||     ||  .  \    \     ||  ||  |    |  | |     ||     ||  |      |  |  |  |  ||     |    |   |   ||  |  ||  |  |     \      / |  |  ||     |    \     ||  |  ||     |\    ||     ||     |    |  |  ||     \     ||     ||     ||  |  ||  .  \    |  |   |  |  ||     ||     ||     ||     |  |  |  
+CLU2 6|__|  |__|\_|\___/ |__| |_____| \___| \___| \___/ |__|\_|     \____||__||__|   |____||_____||_____||_ |      |__|  |__|__||_____|    |___|___||__|__||__|__|      \_/\_/  |__|__| \___/      \____||__|__| \__,_| \___||_____||_____|    |__|__| \__,_|\____||_____||_____||__|__||__|\_|    |__|   |__|__||_____||_____| \___/  \__,_|  |__|  
+CLU2 7 It seems we will never understand the conundrum that is Professor Charles, as today we have received reports that he has passed away. The cause of death is unknown.
+CLU2 8 We would finally like to note that this is the last issue of this newspaper, as resources are limited.                                                                                                                                                                                                                                                                                                                                          
+
+VAT SCREEN CLUE
+
+CLU3 1 _____ _      _____ ____  _____ _____ _      ____ ___  _   _  _      ____  _____  ____  _     ____  _____  _  ____  _      ____ 
+CLU3 2 /  __// \__/|/  __//  __\/  __//  __// \  /|/   _\\  \//  / \/ \  /|/ ___\/__ __\/  __\/ \ /\/   _\/__ __\/ \/  _ \/ \  /|/ ___\
+CLU3 3 |  \  | |\/|||  \  |  \/|| |  _|  \  | |\ |||  /   \  /   | || |\ |||    \  / \  |  \/|| | |||  /    / \  | || / \|| |\ |||    \
+CLU3 4 |  /_ | |  |||  /_ |    /| |_//|  /_ | | \|||  \_  / /    | || | \||\___ |  | |  |    /| \_/||  \_   | |  | || \_/|| | \||\___ |
+CLU3 5 \____\\_/  \|\____\\_/\_\\____\\____\\_/  \|\____//_/     \_/\_/  \|\____/  \_/  \_/\_\\____/\____/  \_/  \_/\____/\_/  \|\____/
+CLU3 6
+CLU3 7 Should a worker come in contact with this fluid they must be quarantined immediately. The side effects of contamination are as of yet unknown, and we must not risk a viral outbreak within this important facility.                                                                                                                                 
+
+
+>>>>>BREAK ROOM
+
+CENTER
+1.1 D This is the break room. You remember eating whatever scraps of food they gave you to here in between shifts. There was never much here. To the east you see the desk where a supervisor would sit with his cigar. The north part of the room is the door that leads to the orphans’ bunks. On the south is the door that leads to the main hallway.
+1.1 N You approach the locked door where your bunk is. The  other kids are sleeping or pretending to sleep right now. The only way in is the master key. You go back to the center of the room.
+1.1 S You walk to the door leading to the hallway.
+1.1 E When you arrive at the desk, you don't see much except some cigar ashes. There is one drawer of the desk that is slightly ajar...
+1.1 W A sign reads various rules of the institution. Wake up at 7, go to bed at 10. Work basically the whole day through.
+
+DOOR TO HALLWAY
+1.2 D You know the door leads to the hallway, but it looks like the blue lock is holding it shut in your way.
+1.21D The door is unlocked! You can head into the hallway.
+1.2 N You head back to the center of the room.
+1.2 S You can't go there because the door is locked.
+1.21S Now that the door is unlocked, you head into the Hallway.
+1.2 E There's nothing there but rubber shoe marks on the ground where kids would play.
+1.2 W There's only a very extremely dirty -- or perhaps tainted -- window. Nothing to do here.
+1.2 O The door won't budge. You have to do something about the blue pad lock. 
+1.21O You got the door open! You're cautious to open it slowly.
+1.2 U You can't use this right now.
+1.21U You use the blue key on the lock. The lock falls to the ground with a satisfying clang.
+
+DESK
+1.3 D The desktop is empty except for some cigar ashes. The drawer is slightly open. 
+1.31D The desk looks pretty sad now that you've pillaged it for all its worth.
+1.3 N You can't go there right now.
+1.3 S You can't go there right now.
+1.3 E You can't go there right now.
+1.3 W You return to the center of the room.
+1.3 O You pull open the drawer, releasing a small puff of dust.
+
+INSIDE DESK
+1.4 D The inside of the drawer is littered with dust bunnies. Some of the dust is clinging onto a blue key.
+1.41D There's nothing inside here except for dust. You close the drawer.
+1.4 T You take the blue key, sneezing as you remove your hand from the desk.
+
+>>>>>HALLWAY
+
+BREAK ROOM DOOR
+2.1 D You see many doors to your east. You know that each of these rooms are dedicated to a certain product, be it automobiles, textiles, or weaponry. In front of the weaponry room, of course, there’s a guard at a desk. He is asleep, though.
+2.1 N This door leads you back into the break room. There's n reason for you to go back.
+2.1 S The door you reach is marked with a car icon.
+2.1 E You inch closer to the guard's desk. He's snoring pretty loudly.
+2.1 W There's the entrance to the entire factory, but the door is bolted shut. You don't see any way to open it, even with a key.
+
+AUTOMOBILE DOOR
+2.2 D The door is marked with an icon of a car. It's locked shut with a green padlock.
+2.21D The automobile door is open.
+2.2 N You return to the break room door.
+2.2 S The door is locked. You need a key.
+2.21S You enter the automobile room and shut the door quietly behind you.
+2.22S This will take you back to the automobile room. You don't need to go back there now.
+2.2 E The door you walk to is marked with an icon depicting a piece of fabric.
+2.2 W There's the entrance to the factory, but there's no use fighting with that hunk of a door.
+2.2 O The door won't open. You'll need a green key.
+2.21O Without the lock, you open the door easily.
+2.2 U You use the green key you got from the guard on the padlock. It works! You catch the padlock before it falls to make sure the guard doesn't wake up.
+
+
+GUARD DESK
+2.3 D The guard is snoring loudly. His hand is hanging over the edge of the desk. It's holding a green key. A door is to the north of him.
+2.31D The guard must be a deep sleeper. You already got the key from him, so there's no reason to bother him anymore.
+2.3 N This door marked with an image of a gunpowder keg. 
+2.3 S The door you walk to is marked with an icon depicting a piece of fabric.
+2.3 E It's a wall with a portrait of the boss on it. He's a chubby man who wears a monocle and has a handlebar mustache. Just looking at him makes you feel sick.
+2.3 W You return to the break room door.
+2.3 U You sling the rope like a cowboy, just as Pablo taught you. You manage to snag the green key from the guard.
+2.31U There's no need to bother the guard anymore.
+2.3 T When you try to get closer to the guard, he sniffs and stretches a little. It's too risky to get too close to him.
+
+
+TEXTILE DOOR
+2.4 D This door is the textile door. It's locked with a red padlock.
+2.41D The door is unlocked now.
+2.4 N You go closer to the guard's desk.
+2.4 S This door is locked. You can't go there right now.
+2.41S You slip into the textile room and close the door quietly behind you.
+2.42S You don't see any reason why you should go back to the textile room.
+2.4 E There's that picture of your boss, looking triumphantly over a bunch of kids. The portrait is quite huge. He must be overcompensating for something.
+2.4 W You go to the automobile door.
+2.4 U You use the red key on the padlock. It fits perfectly!
+2.4 O The door won't budge. You need a key.
+2.41O Now that it's unlocked, you easily open the door.
+
+GUNPOWDER DOOR
+2.5 D This door has a picture of a gunpowder keg. This padlock is yellow.
+2.51D The door is open now. If you going in there's probably no going back.
+2.5 N You can't go this way, since the door is locked.
+2.51N You step into the room, shutting the door as quietly as possible.
+2.5 S You tiptoe towards the snoring guard.
+2.5 E There's nothing here but wall.
+2.5 W There's nothing here but wall.
+2.5 O The door won't budge. You have to do something about the yellow padlock.
+2.51O Now that it's unlocked, you easily open the door.
+2.5 U The yellow key unlocked the door!
+
+>>> AUTOMOBILE ROOM
+
+ENTRANCE
+3.1 D In this room you remember grabbing materials off the conveyor belt, screwing parts together, and then placing them back on the conveyor belt for the kids further down to work on. It was tedious work and you often got yelled at if you weren’t fast enough. 
+3.1 N This will take you back to the hallway. You need to explore the room a little more first.
+3.11N Now that you have the key, you return to the hallway.
+3.1 S You go to the conveyor belt.
+3.1 E There's a door that leads to a larger room, where you assume the finished vehicles were. This metal door has no handle or keyhole or anything and won't budge.
+3.1 W You go to the controls for the conveyor belt.
+
+CONVEYOR BELT
+3.2 D The conveyor belt isn't moving right now. You don't see anything useful on it.
+3.21D The belt is moving now. You may be able to grab the key if you time it right.
+3.22D There's nothing useful around this belt that you can see.
+3.23D The key is still unreachable from here. Maybe if you turn on the belt you can get it.
+3.2 N You go back to the entrance of the room.
+3.2 S Over the conveyor belt, you see that there's nothing of interest there.
+3.2 E You know there are probably vehicles on the other side of that metal door and wall, and you really want to drive one. But there's no way to get there right now.
+3.2 W You can't go there right now.
+3.2 T Following the belt, you reach your fingers in and try to pry out the key. The belt squeezes your fingers and you have to yank them away.
+3.21T You try a second time. You manage grab the key in time. When you pull it out of the belt, you rip out a scrap of paper along with it. There’s a something written on it, but you need the rest of the paper to understand it.
+3.22T Curious to see what the rest of the paper reads, you grab at the conveyor belt again. You weren’t fast enough this time.
+3.23T You manage to grab the paper, tugging it quickly enough to pull out enough legible parts. 
+3.24T There's no reason to try to stick your hands in there again.
+
+CONTROLS
+3.3 D Here are the controls for the conveyor belt. You don't really know which buttons do what, but the gree button looks self-explanatory. You also see a red key hanging from a chain.
+3.31D Other than the controls for the belt, there's nothing here anymore.
+3.3 N There's nothing but wall there.
+3.3 S The conveyor belt is in the way.
+3.3 E You return to the entrance of the room.
+3.3 W There's nothing past this control panel except for concrete and giant wires.
+3.3 T You reach on your tiptoes to grab the key. It slips from your fingers and falls into the crevices of the conveyor belt, completely unreachable from your current position.
+3.3 U You use Pablo's cowboy method again and snag the key.
+3.3 P There's no reason to turn on the conveyor belt.
+3.31P You turn on the conveyor belt so you can possibly reach the key.
+3.32P You push the green button again, but it doesn't do anything. There's a lot of other buttons, but you don't know what they do.
+
+>>>>> TEXTILE ROOM
+
+ENTRANCE
+4.1 D You know this room to be the room where you work at the looms, creating fabric. The process was endless, and the fabric you made all looked the same. To the west was a giant pile of rags made by kids who weren't so good at their job. Along the room are columns of looms. South from you, there's a vat of liquid that you never knew much about.
+4.1 N You're hesitant to leave this room without digging around a bit first.
+4.11N Now that you have what you need, you return to the hallway again.
+4.1 S You walk south, to the vat. 
+4.1 E There are a bunch of looms there. You don't think it would be productive to mess around with the machines you spent your entire life standing in front of.
+4.1 W You walk to the mess of rags, stepping over a handful of them.
+4.11W You really really don't want to look at another loom for the rest of your life.
+
+RAGS
+4.2 D Now in the middle of the rags, the piles seem endless. Sometimes kids hide things in here, so it might be worthwhile to take some rags and search their pockets. There must be some way to clear all the fabric out and only get the key you need...
+4.21D You had burned a few meters of rags, but surprisingly it still looks like a mess. It smells bad over here, too.
+4.2 N Nothing here but wall.
+4.2 S You see the loom that you worked with for the past year or so. You know there's nothing there.
+4.2 E You return to the room's entrance.
+4.2 W There's nothing further in this direction.
+4.2 T You grab at a few different fabrics. You don't find anything other than more rags.
+4.21T You try again, this time putting aside rags that you've already searched through into a separate pile. This doesn't seem like it's going to work.
+4.22T Now tired, you put a last burst of energy into searching. You find what looks like the front page of a newspaper...
+4.23T You probably won't find anything else by manually searching through this mess. You need a way to get rid of all the fabrics and leave only what's important...
+4.24T You found the key, so you don't think there's anything important left here.
+4.2 U You decide there’s no point digging around here. You take out your lighter and set one rag on fire. You drop that one rag onto a small pile of others and begin to create a nice fire. Amidst the flames, see a piece of metal glimmering on the ground. You stomp out the fire and get a yellow key!
+4.21U There's no need to create another fire. It's already pretty smoky in here.
+
+VAT
+4.3 D You realize you've never been close to this vat before. A few kids were given the special job of dipping fabrics into the vat, as if they were dying them. The textiles didn't seem to look any different. You didn't really know what the point was. The vat is closed right now, but there are a few mysterious buttons around.
+4.31D Yeah, you already screwed up the machine by messing with it. It's completely unresponsive now.
+4.3 N You return to the room's entrance.
+4.3 S If you walk any further you'd slam your face into the vat.
+4.3 E There's nothing interesting there.
+4.3 W There's nothing of interest there.
+4.3 P You push a button. A compartment of the control panel lifts up, revealing a spot to enter in a key. Unlike the rest of the panel, this lock is abnormally clean.
+4.31P You push another button. The entire machine whirrs loudly and then becomes very quiet.
+4.32P When you push any button, nothing happens. That's what you get for pushing buttons when you don't know what they do!
+4.3 U Your blue key works perfectly. Something lights up on the panel. Words appeared on it! You'd never seen anything like it before...
+4.31U You try your key, but it doesn't fit. The machine beeps loudly as if in protest, and then becomes very quiet.
+
+>>>>GUNPOWDER ROOM
+
+ENTRANCE
+5.1 D You are rarely in this room, but you know Pablo has worked here before. There are many desks along the east side of the room where kids would sit and screw together guns. Barrels of gunpowder sit in the center of the room.
+5.1 N You walk to the barrels of gunpowder.
+5.1 S There's nothing left for you in that hallway. The only way is forward.
+5.1 E You can't go this way.
+5.1 W You can't go this way.
+
+CRACK IN THE WALL
+5.2 D When you get closer, you notice a crack on the wall. You know the other side of the wall is the bunks where the other orphans are. You know this because sometimes you would hear the bang of a gunshot when supervisors would test out newly assembled guns.
+5.2 N There's nothing in that direction.
+5.2 S There's noting down here.
+5.2 E You walk to the barrels of gunpowder gathered in the center of the room.
+5.2 W The bunks are on the other side, but how do you get there to get the other kids out?
+5.2 U You can probably use the gunpowder to break through the crack, but it's way too dangerous to use the lighter here. You should get some cover.
+
+GUNPOWDER BARRELS
+5.3 D There are a lot of barrels in this room, but most of them are accumulated towards the center and west. They are marked as "extremely flammable."
+5.3 N There's nothing up there.
+5.3 S You return back to the entrance.
+5.3 E You go to the desks where the kids worked.
+5.3 W You go towards the wall. It looks kind of strange...
+5.3 U If you use your lighter around all these barrels, there's a 100% chance you'll die. Better not.
+
+DESKS
+5.4 D Unlike the looms you worked at, these desks have the each kid's name on it. You find the desk marked with the name "Pablo." The desktop is empty but there may be stuff in his drawer.
+5.41D There's nothing left in Pablo's desk. Just looking at it makes you feel lonely.
+5.4 N There's nothing up there.
+5.4 S There's nothing in that direction.
+5.4 E Just a plain looking wall over here.
+5.4 W You go to the center of the room with the gunpowder barrels.
+5.4 U You realize that this may be the last time you see this lighter, your mysterious source of comfort for years. You huddle behind multliple desks, turn the lighter, and fling it towards the gunpowder and the crack in the wall. //INTERMISSION
+5.4 O When you open the drawer you see a pistol. It looks fairly new. Maybe Pablo made it with his own hands and stashed it here? You're unsure about whether or not you should take it.
+
+DRAWER
+5.5 D The gun sits in the drawer, looking at you intimidatingly. 
+5.51D Without the gun, it's just a regular wooden drawer.
+5.5 T You take a deep breath and take it. It's loaded and heavy, in more ways than one.
+
+>>>> BUNK ROOM
+
+HALFD You hear a blast and ringing in your ears. When you look up, the crack in the wall has become a door-sized hole. Your other orphan friends poke their heads out, looking astonished. They give a yell once they realize that they aren't dreaming, and make an immediate run for it, grabbing what very few personal belongings that you had. You hear an alarm, which probably means the skeleton crew of guards are up and will have to round up the kids. They will probably be overwhelmed by the sheer number of kids rushing out. One small boy tugs at your sleeve. "You're Pablo's friend, right?" he asks. "There's a lot of rumors that you can escape through the shed in the courtyard. Maybe Pablo went in that direction?" You thank him for the information. The shed was on the other side of the factory complex, so joining the other kids in their exodus was not an option. You step further into the bunk room to find a way to get there.
+
+CENTER
+6.1 D The bunk room is mostly empty now that the kids have ran out. There's the lines of beds to the east, an inaccessible door to the south and many windows to the north.
+6.1 N You walk towards the windows.
+6.1 S You know this door to lead to the break room. It's inaccessible from this end, too. Only someone with the master key can open and close this door.
+6.1 E You walk to the line of beds. 
+6.1 W This way is back to the wall that you broke open.
+
+WINDOWS
+6.2 D When you look out the windows, you see that you're far from ground level. However, you know the ground to be the courtyard where the shed is. All the guards that have woken up, so it would be safe to go down with your rope.
+6.2 N Nothing in this direction.
+6.2 S You return to the center of the room.
+6.2 E Nothing really over here.
+6.2 W Nothing but rubble from the exploded wall over here.
+6.2 U You know that once you do this, you won't be able to get your rope back. You tie the rope to a nearby pole and rappel your way down to the courtyard.
+
+BEDS
+6.3 D Most of the beds are disheveled and messy. You see your own bunk and Pablo's bunk. You see something you haven't seen before sticking out of your pillowcase.
+6.3 N There are more beds, but nothing in them.
+6.3 S There are more beds, but nothing in them.
+6.3 E Just wall over here.
+6.3 W You return to the center of the room here.
+6.3 T You take a black and white photo from the pillowcase. It shows a picture of a black haired woman, a baby, and the too familiar face wearing a monocle and a handlebar mustache...
+6.31D There's nothing of note here anymore, except maybe the strong urge within you to take a nap.
+>>>>> COURTYARD
+
+CRTYD Once you land, you hear barking. You take a fleeting look to your east, where you see the shed the kid talked about. To the west, there's a vicious looking dog barking and inching towards your direction. 
+
+CENTER
+7.1 D East, shed. West, dog. You don't have time to stand here!
+7.1 N There's nothing here!
+7.1 S There's nothing here!
+7.1 E You run into the shed and close the door immediately.
+7.1 W You turn and face the dog. 
+
+BY DOG
+7.2 D Why are you looking this dog straight in the eye? Move!
+7.2 N You can't go in that direction!
+7.2 S You can't go in that direction!
+7.2 E You run into the shed and close the door immediately.
+7.2 W Do you have a death wish? Don't go that way!
+7.2 U You take out your pistol and shoot it at the dog. It stops in its tracks, hobbles around a bit, and then lies down. You're quite surprised at your aim.
+
+>>>>> SHED 
+
+ENTRANCE
+8.1 D You expected a shed full of gardening tools, but this shed looks more like an abandoned library. There are a lot of bookshelves and drawers to your east. Everywhere else there's cobwebs as far as the eye can see.
+8.1 N You walk towards one of the walls covered in cobwebs.
+8.1 S You walk towards one of the walls covered in cobwebs. This one looks particularly unremarkable.
+8.1 E You walk towards the dusty bookshelves and drawers.
+8.1 W This will take you back outside, and you don't want to go back there.
+
+SHELVES
+8.2 D There's a lot here, but not a lot is legible due to the heavy layers of dust. One particular book is less dusty than the others.
+8.21D There's nothing else that looks interesting here.
+8.2 N There's nothing in this direction but more books and cobwebs.
+8.2 S There's nothing in this direction but more cobwebs.
+8.2 E Walking this way will get you a fistful of dust and cobwebs and bookshelf.
+8.2 W You return to the entrance of the shed.
+8.2 T You take the less-dusty book. You notice when you take it, there's something weird with the pages. When it is removed from the shelf, you hear something click. The wall to the north of the entrance shifted a little.
+8.21T You take another book, but nothing else happens.
+8.2 O You open a couple of drawers and find a golden key. It's marked with an "M" on top. This must be the master key. You put it in your pocket.
+8.21O Nothing's in these drawers.
+
+COBWEB - SECRET DOOR
+8.3 D You don't really see anything here but cobwebs and a wooden wall. Some parts of the wall, however, have less dust and cobwebs than others...
+8.31D The wall moved a little more outward. It looks like a secret door!
+8.3 N You can't walk any further.
+8.31N You open the door and see an eerie-looking staircase. The only way is forward.
+8.3 S You return to the center of the room.
+8.3 E Nothing here but cobwebs.
+8.3 W Nothing here but cobwebs.
+
+COBWEB WALL MASTER KEY
+8.4 D You don't see anything here but cobwebs and a wooden wall.
+8.4 N You return to the entrance.
+8.4 S You can't walk any further.
+8.4 E Nothing here but cobwebs.
+8.4 W Nothing here but more cobwebs.
+
+>>>> BASEMENT
+
+ENTRANCE
+9.1 D Directly west of you, you see a cage, and inside the cage, other orphans! Behind the cage, you see a door. To the north of the cage, there's a heavy metal door.
+9.11D Directly west of you, you see an empty cage. North of that is a heavily armed door. Behind the cage is a door that may or may not lead to freedom.
+9.1 N Nothing here.
+9.1 S This will take you back up the stairs. You're so close-- you shouldn't go back.
+9.1 E Nothing here.
+9.1 W You walk towards the cage with the orphans. They look at you as you approach.
+9.11W You walk towards the cage, now empty.
+
+CAGE
+9.2 D The orphans grasp at the bars, looking at you. When you ask them about Pablo, they say they haven't seen him. However, one boy says that the door behind the cage may be a way out.
+9.21D Now that the orphans are out, there's nothing here.
+9.2 N You walk towards the heavily armed door.
+9.2 S Nothing here, unfortunately.
+9.2 E You return to the room's entrance.
+9.2 W You go to the door further down the basement.
+9.2 U You use the gold key on the cage. The door opened! The orphans give a sigh of relief and step outside. They wish you luck in finding Pablo but run up the stairs to join the other kids in their escape.
+9.21U The black key doesn't work on this cage.
+
+EXIT DOOR
+9.3 D This door looks standard as compared to the other door in the basement. Which key should you use to open it?
+9.31D The door is open. When you step through, you will be out of the factory and into another world.
+9.3 N Nothing here.
+9.3 S Nothing really here.
+9.3 E You return to the cage.
+9.3 W You can't go that way. The door is locked.
+9.31W You should probably let the other orphans out of the cage first.
+9.32W Now that the door is open, you see stairs leading to a mysterious place. You wonder if Pablo is somewhere out there, waiting for you.
+9.3 U The master key worked on this door!
+9.31U It doesn't look like this key will work here.
+
+HEAVY DOOR
+9.4 D This door has a heavy black padlock and is made of very hard, shiny metal. Something really important must be in there.
+9.41D The door is unlocked. A strange smell emanates from it.
+9.4 N You can't go this way while the door is locked.
+9.41N You enter the door cautiously.
+9.42N You don't want to go back in there.
+9.43N You should probably get the other kids out first.
+9.4 S You return to the cage.
+9.4 E You can't go that way.
+9.4 W You can't go that way.
+9.4 U This key doesn't seem to work here.
+9.41U The mysterious black key fits into the padlock. 
+
+>>>> OPTIONAL ROOM
+
+ENTRANCE
+0.1 D The room smells awful. In the center of the room you see a woman sitting on a chair. Her long dark hair is covering her face. She hasn't responded to your entrance yet.
+0.1 N You walk towards the woman.
+0.1 S You don't want any part of this. You return into the secret basement room.
+0.1 E You can't go there right now.
+0.1 W You can't go there right now.
+
+WOMAN She leaps up at you, arms outstretched. What should you do??
+ACT 1 You couldn't do anything in time. She hugs you with a familiarity that you have never known before. 
+ACT 2 You take out your pistol and shoot her. She falls backwards into her chair. She doesn't bleed, but she most certainly is dead.
+>>> if player doesn't have all the clues
+ACT 3 Frightened, you dart back into the other room, shutting the heavy door behind you.
+>>> plays only if player has all clues
+ACT 4 "STOP!" a man yells. The woman flinches and returns to her seat, as if afraid. You turn around and see the Count at the door, looking at you with narrowed eyes. 
+
+
+COUNT You shiver as he glares at you, realizing that you probably won’t be able to escape. The look in the count’s eyes, however, is something you haven’t seen before. He pulls you away from the woman and out of the room, in front of the door leading to the outside world. “I am...was...your mother’s brother,” he explains, his hands shaking on your shoulders. “Now that you have met her, you deserve to know the truth.” You shake your head insistently, wishing that you could block out what he will say. “Some insane professor caused a nuclear explosion. So many of us have become infected and died. There is a force outside that is attempting to defeat those people--monsters— out there. This factory is a safe place for the young, and also a place where we can create resources for those outside. Your mother told me in her last days that she wanted me to protect you.” He looks sadly at the door leading outside “But you are older now. I cannot stop you from going. If you stay, I will protect you with my life. But if you go, I can’t guarantee that you’ll live.”
+>>> Can choose to stay or choose to go.
+>>> if did not enter black room
+END 1 Your perilous trial comes to an end as you exit the door and make your way to the outside world. An intended sigh of relief is cancelled out by a gasp as you eyes meet the desolated fallout that that makes up the outside world. You wonder if Pablo could have survived under these conditions. A fire is lit in your worn out disposition and a renewed vitality takes hold of the search for your treasured friend. Your mind begins calculating the various ways that you can continue the search in this new barren world. Despite all odds, you believe that the future will be a bright place. 
+>>> if ignored woman
+END 2 Your perilous trial comes to an end as you exit the door and make your way to the outside world. An intended sigh of relief is cancelled out by a gasp as you eyes meet the desolated fallout that that makes up the outside world. You wonder if Pablo could have survived under these conditions. You remember the image of the woman in that room. Suddenly, you have serious doubts about how you can survive in this world.
+>>> if woman touched 
+END 3 Your nausea begins to worsen as the thought of that woman's touch crosses your mind. Who was that? What was their purpose in the factory? Are these your last days? A lingering feeling of dread envelops your whole body as today's ordeal begins to take its toll. Walking becomes more difficult as you finally make your way outside of the door. 
+>>> if you shot woman
+END 4 Anxiety causes your whole body to tense as you think about the woman that you killed. Your walking changes pace into a steady jog as you try to shake off the negative thoughts that overwhelm your mind. Why did she have to die? Was that the only outcome? The unwelcome train of thought comes to an end as you approach the final door to the factory and take your first steps outside into a barren, desolate void of a city……..
+>>> if you chose to go stay
+END 5 Talking to the count has stirred bittersweet emotions. Your decision to remain in the confines of this factory turned shelter is rooted in a selfish desire to live. The thought of Pablo becoming victim as a result is haunting you...You hope he’d understand.
+>>> if you chose to go
+END 6 Talking to the count created more questions than it answered. Having closure on the different loose ends of conditions in the factory has changed your perspective on the way things were run. A new concern over Pablo has entered your mind - if he isn’t in the factory then where could he really be? The exit into the outside world leads to a desolate wasteland whose only sign of life comes in the form of irradiated victims. Could Pablo really have survived out here? You decide to return this concern to the back of your mind as you take your first steps into a vast new world. 
