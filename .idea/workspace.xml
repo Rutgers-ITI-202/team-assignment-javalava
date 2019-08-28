@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd0c5303-a4bf-4964-8b7f-67fb9d19ad16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JAVALAVA FINAL/TextAdventure/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/JAVALAVA FINAL/TextAdventure/.classpath" afterDir="false" />
-    </list>
+    <list default="true" id="bd0c5303-a4bf-4964-8b7f-67fb9d19ad16" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,10 +148,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="531" />
+    <option name="width" value="983" />
     <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
@@ -231,7 +228,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="36" y="188" width="1296" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -239,7 +236,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25991902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25970873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
